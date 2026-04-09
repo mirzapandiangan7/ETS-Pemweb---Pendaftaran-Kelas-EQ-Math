@@ -20,7 +20,7 @@
             >Pricing</a
           >
           <a
-            href="login.html"
+            href="login.php"
             class="bg-white text-blue-600 px-5 py-2 rounded-full font-semibold hover:bg-gray-100 transition shadow"
             >Masuk / Daftar</a
           >
@@ -145,7 +145,7 @@
                         <li class="flex items-center"><span class="text-blue-500 mr-3 font-bold">✓</span> Bantuan tugas sekolah</li>
                     </ul>
                     
-                    <a href="login.html" class="mt-auto block w-full text-center bg-blue-50 text-blue-600 font-bold py-3 rounded-xl hover:bg-blue-600 hover:text-white transition-all">Pilih Bulanan</a>
+                    <a href="login.php" class="mt-auto block w-full text-center bg-blue-50 text-blue-600 font-bold py-3 rounded-xl hover:bg-blue-600 hover:text-white transition-all">Pilih Bulanan</a>
                 </div>
 
                 <div class="bg-blue-600 rounded-2xl shadow-xl p-8 flex flex-col transform md:-translate-y-4 text-white relative border-2 border-blue-400">
@@ -168,7 +168,7 @@
                         <li class="flex items-center"><span class="text-yellow-400 mr-3 font-bold">✓</span> Rapor perkembangan akademik</li>
                     </ul>
                     
-                    <a href="login.html" class="mt-auto block w-full text-center bg-white text-blue-600 font-bold py-3 rounded-xl hover:bg-gray-100 transition-all shadow-lg">Pilih Tahunan</a>
+                    <a href="login.php" class="mt-auto block w-full text-center bg-white text-blue-600 font-bold py-3 rounded-xl hover:bg-gray-100 transition-all shadow-lg">Pilih Tahunan</a>
                 </div>
 
             </div>
