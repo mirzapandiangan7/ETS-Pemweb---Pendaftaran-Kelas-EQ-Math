@@ -20,7 +20,7 @@
             >Pricing</a
           >
           <a
-            href="login.html"
+            href="login.php"
             class="bg-white text-blue-600 px-5 py-2 rounded-full font-semibold hover:bg-gray-100 transition shadow"
             >Masuk / Daftar</a
           >
@@ -160,6 +160,7 @@
       </div>
     </section>
 
+<<<<<<< HEAD:index.html
     <section
       id="harga-kelas"
       class="py-20 bg-slate-50 pt-28 -mt-16 scroll-mt-24"
@@ -176,6 +177,61 @@
             Satu akses tak terbatas untuk semua materi, kelas, dan fitur
             interaktif kami.
           </p>
+=======
+    <section id="harga-kelas" class="py-20 bg-slate-50 pt-28 -mt-16 scroll-mt-24">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center mb-16">
+                <h4 class="text-blue-600 font-bold mb-2 uppercase tracking-wide">Investasi Pendidikan</h4>
+                <h2 class="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">Pilih Paket Belajarmu</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Satu akses tak terbatas untuk semua materi, kelas, dan fitur interaktif kami.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">
+                
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 flex flex-col hover:-translate-y-2 transition-transform duration-300">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Paket Bulanan</h3>
+                    <p class="text-gray-500 mb-6">Solusi tepat untuk komitmen jangka pendek.</p>
+                    
+                    <div class="text-4xl font-extrabold text-gray-900 mb-2">
+                        Rp 150.000 <span class="text-lg text-gray-500 font-normal">/bulan</span>
+                    </div>
+                    <p class="text-sm text-blue-600 font-medium mb-8 bg-blue-50 w-max px-3 py-1 rounded-md">Otomatis diperpanjang</p>
+
+                    <ul class="space-y-4 mb-8 text-gray-600 flex-grow">
+                        <li class="flex items-center"><span class="text-blue-500 mr-3 font-bold">✓</span> Akses semua modul materi</li>
+                        <li class="flex items-center"><span class="text-blue-500 mr-3 font-bold">✓</span> Latihan soal & kuis interaktif</li>
+                        <li class="flex items-center"><span class="text-blue-500 mr-3 font-bold">✓</span> Grup diskusi komunitas</li>
+                        <li class="flex items-center"><span class="text-blue-500 mr-3 font-bold">✓</span> Bantuan tugas sekolah</li>
+                    </ul>
+                    
+                    <a href="login.php" class="mt-auto block w-full text-center bg-blue-50 text-blue-600 font-bold py-3 rounded-xl hover:bg-blue-600 hover:text-white transition-all">Pilih Bulanan</a>
+                </div>
+
+                <div class="bg-blue-600 rounded-2xl shadow-xl p-8 flex flex-col transform md:-translate-y-4 text-white relative border-2 border-blue-400">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-400 text-yellow-900 px-5 py-1.5 rounded-full text-sm font-bold shadow-md">
+                        Lebih Hemat 20%
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mb-2">Paket Tahunan</h3>
+                    <p class="text-blue-200 mb-6">Investasi cerdas untuk hasil belajar yang maksimal.</p>
+                    
+                    <div class="text-4xl font-extrabold mb-2">
+                        Rp 1.440.000 <span class="text-lg text-blue-200 font-normal">/tahun</span>
+                    </div>
+                    <p class="text-sm text-yellow-300 font-medium mb-8">Setara dengan Rp 120.000 /bulan</p>
+
+                    <ul class="space-y-4 mb-8 text-blue-50 flex-grow">
+                        <li class="flex items-center"><span class="text-yellow-400 mr-3 font-bold">✓</span> <strong>Semua fitur Paket Bulanan</strong></li>
+                        <li class="flex items-center"><span class="text-yellow-400 mr-3 font-bold">✓</span> Sesi konsultasi privat 1-on-1</li>
+                        <li class="flex items-center"><span class="text-yellow-400 mr-3 font-bold">✓</span> Akses prioritas rekaman kelas</li>
+                        <li class="flex items-center"><span class="text-yellow-400 mr-3 font-bold">✓</span> Rapor perkembangan akademik</li>
+                    </ul>
+                    
+                    <a href="login.php" class="mt-auto block w-full text-center bg-white text-blue-600 font-bold py-3 rounded-xl hover:bg-gray-100 transition-all shadow-lg">Pilih Tahunan</a>
+                </div>
+
+            </div>
+>>>>>>> 2e699536312dd21cfc1008bf1c6b278536da9ca5:index.php
         </div>
 
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-stretch">

@@ -33,7 +33,7 @@
 
     <br />
 
-    <a href="login.html">Kembali ke Halaman Login</a>
+    <a href="login.php">Kembali ke Halaman Login</a>
 
     <script>
       const form = document.getElementById("forgotForm");
@@ -56,10 +56,10 @@
         } else {
           errorMsg.style.display = "none";
 
-          alert("Password berhasil diubah");
-          window.location.href = "login.html";
-        }
-      });
+                alert("Password berhasil diubah");
+                window.location.href = "login.php";
+            }
+        });
     </script>
   </body>
 </html>
